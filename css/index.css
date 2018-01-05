@@ -1,0 +1,109 @@
+/*style for the whole page*/
+html, body { 
+	height: 100%;  
+	margin: auto; 
+	padding-left: 100px;
+	padding-right: 100px;
+	min-width: 1100px;
+}	/*page looks good but sometimes isn't perfectly centered, additional adjustment to padding-left, padding-right, and min-width needed*/
+
+/*style of the top bar*/
+#headers{
+	width: 100%;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+/*styles for the div elements that contain the headings for the columns */
+#headers > div{
+	width: 25%;
+	text-align: center;
+	font-family: Arial;
+	font-size: 2em;
+	float: left;
+	background: white;
+	min-height: 2em;
+	/*border-width: 2px;
+	border-color: #f0f0f5;
+	border-style: groove;*/
+}
+
+#main{ 
+	width: 100%; 
+	height: 90%; 
+	bottom: 0;
+}
+
+/*might consider getting rid of h1, it's not even used in the html file */
+h1{
+	text-align: center;
+	width: 100%;
+	font-family: Arial;
+	
+}
+
+/*puts margin above the bar indicating the columns*/
+.spacing{
+	margin-top: 10%;	
+}
+
+/*style for each individual column*/
+.column{
+	float: left;
+	width: 25%;
+	height: auto;
+	min-height: 1000px;
+	text-align: center;
+	
+}
+
+/*styles for the footer, might need to put in top margin a little */
+footer{
+	padding-bottom: 50px;
+}
+
+/*consider removing this stuff with the button*/
+button{
+	width: 80%;
+	height: (same as width);
+	
+}
+
+/*style for the emoji divs*/
+.emoji_div{
+	width: 80%;
+	display: inline-block;
+	padding-bottom: 10px;
+}
+
+/*used to override CSS btn-default properties*/
+.btn{
+	border-style: none;
+}
+
+/* lines 61, 65, 69, and 73 is just a placeholder to distinguish the different sections,
+in the future, lines 61, 65, 69, and 73 will be deleted or changed to another background color*/
+
+/*for some reason this doesn't do anything, we want a way to make a border to the side of the column to clearly distinguish the column borders */
+#tests{
+	border-right-color: #DDD;
+	border-right-width: 1px;
+}
+/*
+#tests{
+	background-color: #DDD;
+}
+
+#teach_qual{
+	background-color: #AAA;
+}
+
+#workload{
+	background-color: #777;
+}
+
+#class_exp{
+	background-color: #444;
+}
+*/

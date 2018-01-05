@@ -1,0 +1,73 @@
+user_info = [
+  
+  {
+    username: 'emily',
+    schedule: ['BENG 320', 'BENG 380', 'BENG 313', 'STAT 344']
+  },
+  {
+    username: 'bassam',
+    schedule: ['BENG 320', 'BENG 380', 'BENG 313', 'CS 310', 'ENGH 302']
+  }
+];
+
+class_char = [
+  {
+    class_name: 'BENG 380',
+    semester: 'fall 2017',
+    secion: '001',
+    professor: 'Sean Yun',
+    major: 'BENG',
+    department: 'BENG',
+    school: 'Volgenau School of Engineering'
+  },
+  {
+    class_name: 'BENG 320',
+    semester: 'fall 2017',
+    secion: '001',
+    professor: 'Amir Khan',
+    major: 'BENG',
+    department: 'BENG',
+    school: 'Volgenau School of Engineering'
+  },
+  {
+    class_name: 'BENG 313',
+    semester: 'fall 2017',
+    secion: '001',
+    professor: 'Michelle Harris-Love',
+    major: 'BENG',
+    department: 'BENG',
+    school: 'Volgenau School of Engineering'
+  },
+  {
+    class_name: 'CS 310',
+    semester: 'fall 2017',
+    secion: '001',
+    professor: 'Mark Snyder',
+    major: 'CS',
+    department: 'CS',
+    school: 'Volgenau School of Engineering'
+  },
+  {
+    class_name: 'STAT 344',
+    semester: 'fall 2017',
+    secion: '001',
+    professor: 'Ilhan Izmirli',
+    major: 'STAT',
+    department: 'STAT',
+    school: 'Volgenau School of Engineering'
+  },
+  {
+    class_name: 'PSYCH 100',
+    semester: 'fall 2017',
+    secion: '002',
+    professor: 'Nick Hertz',
+    major: 'PSYCH',
+    department: 'PSYCH',
+    school: 'College of Humanities and Social Sciences'
+  }
+];
+
+user_ref = {
+    username: 'minh',
+    schedule: ['BENG 320', 'BENG 380', 'BENG 313', 'PSYCH 100'] 
+};
